@@ -25,7 +25,7 @@ app.use(
 );
 app.use(json());
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("Server Deployed 🥳");
 });
 
