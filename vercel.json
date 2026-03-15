@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/airtable",
+      "destination": "/api/index.mjs"
+    },
+    {
+      "source": "/verify-recaptcha",
+      "destination": "/api/index.mjs"
+    }
+  ]
+}
